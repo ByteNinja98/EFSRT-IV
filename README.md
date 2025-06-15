@@ -45,10 +45,13 @@ Este proyecto tiene como objetivo desarrollar una **plataforma web interactiva**
 ¡Contribuciones son bienvenidas! Si deseas contribuir, por favor sigue estos pasos:
 1. Haz un fork del proyecto.
 2. Crea una nueva rama:
+   ```bash
    git checkout -b feature/nueva-funcionalidad
 3. Realiza tus cambios y haz un commit:
+   ```bash
    git commit -m "Agrega nueva funcionalidad"
 4. Haz un push a la rama:
+   ```bash
    git push origin feature/nueva-funcionalidad
 5. Abre un Pull Request.
 
