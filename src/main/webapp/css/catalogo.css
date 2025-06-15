@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+.banner {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+    /* Estilos para la sección de productos */
+.productos-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los productos se distribuyan en varias filas */
+    justify-content: space-around; /* Espacio equidistante entre productos */
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo suave para resaltar los productos */
+}
+
+/* Estilos para cada producto */
+.producto-item {
+    background: #fff; /* Fondo blanco para cada producto */
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    margin: 15px; /* Espaciado entre productos */
+    width: 300px; /* Ancho fijo para cada producto */
+    text-align: center; /* Centra el contenido */
+    transition: transform 0.2s; /* Transición suave en hover */
+}
+
+.producto-item:hover {
+    transform: scale(1.05); /* Efecto de hover */
+}
+
+/* Estilos para la imagen del producto */
+.producto-img {
+    max-width: 100%; /* Asegura que la imagen no desborde su contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-top-left-radius: 8px; /* Bordes redondeados */
+    border-top-right-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilos para la información del producto */
+.producto-info {
+    padding: 10px;
+}
+
+.producto-titulo {
+    font-size: 1.2em; /* Tamaño de fuente más grande */
+    margin: 10px 0; /* Margen superior e inferior */
+}
+
+.producto-precio {
+    color: #333; /* Color de texto suave */
+    margin-bottom: 15px; /* Espacio inferior */
+}
+
+/* Estilo del botón */
+.btn {
+    display: inline-block; /* Asegura que el botón se comporte como un bloque */
+    padding: 10px 15px; /* Espaciado interno */
+    background-color: #ff9800; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.btn:hover {
+    background-color: #e68900; /* Color de fondo en hover */
+}
