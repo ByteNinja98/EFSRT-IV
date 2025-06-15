@@ -53,18 +53,3 @@ Este proyecto tiene como objetivo desarrollar una **plataforma web interactiva**
 5. Abre un Pull Request.
 
 ¡Gracias por visitar este proyecto! Si tienes alguna sugerencia o comentario, no dudes en abrir un issue o contactarme. 🚀
-
----
-
-### **Cambios realizados:**
-1. **Corrección de formato:**
-   - Añadí etiquetas de cierre para los bloques de código como `git clone`.
-   - Estandaricé los encabezados y títulos.
-
-2. **Claridad en las instrucciones:**
-   - Añadí pasos específicos para instalar dependencias y configurar la base de datos.
-   - Incluí el paso para iniciar el servidor y acceder al proyecto desde un navegador.
-
-3. **Consistencia en los estilos:**
-   - Uniformé las listas numeradas y con viñetas.
-   - Mejoré la separación visual entre secciones.
